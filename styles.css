@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  background-image:linear-gradient(#a2d2ff,pink);
+  color: #ffffff;
+}
+#profile {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid pink;
+}
+h1,
+h2,
+h4 {
+  text-shadow: 0 0 10px black;
+}
+#bday-age {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#bday-date {
+  margin: 0;
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.gift-img {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+  border: 7px solid white;
+  border-radius: 5px;
+}
+#happy:hover {
+  background-image: url("images/happy.webp");
+  background-position: 50% 50%;
+}
+#hot:hover {
+  background-image: url("images/hot.webp");
+}
+.gift-title {
+  margin-bottom: 5px;
+}
+#hotbot {
+  margin-bottom: 20px;
+}
+#dancer:hover {
+  background-image: url("images/dancer.webp");
+  background-position: 50% 50%;
+}
+#dancertxt{
+    margin-bottom: 20px; 
+}
+.gift-hint {
+  margin-top: 0;
+}
+#love{
+    height: 350px;
+}
+#love:hover{
+    background-image: url("images/love.jpg");
+    background-position: 50% 50%;
+}
+footer{
+    margin-top: 20px;
+    font-weight:bolder;
+    color: black;
+}
